@@ -1,0 +1,8 @@
+Display Name,Form Field Name,JSON Key Name
+Family name,ap.name fam,familyName
+All given names,ap.name giv,allGiveName
+Sex,ap.sex,sex
+Date of birth,ap.dob,dateOfBirth
+Type of identification document,ap.nat id num type,typeOfDocument
+Country of issue,ap.cntry issue,dateOfIssue
+Identification number shown,ap.id num,identityficationNumber

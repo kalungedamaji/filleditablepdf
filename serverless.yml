@@ -1,0 +1,15 @@
+service: fill-dditable-pdf-lambada
+
+provider:
+  name: aws
+  runtime: java11
+  region: ap-south-1
+  timeout: 10
+  memorySize: 1024
+
+package:
+  artifact: target/fill-dditable-pdf-lambada.jar
+
+functions:
+  fillPDFRequestHandler:
+    handler: awsrequesthandler.FillPDFRequestHandler
